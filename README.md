@@ -3,7 +3,8 @@ Convert SQLITE (DB3) to JSON.
 or extract MP3 files from Kasts.
 
 Note: this tool is designed to require no libraries (for the python version) or 
-a single-source executable for any other versions.
+a single-source executable for any other versions. Cuz i hate when people share tools (without containerizing them) that
+need a buncha dependencies.
 
 # Why Kasts?
 I was looking for a well maintained, non-cloud-backed/subscription, podcast client that
