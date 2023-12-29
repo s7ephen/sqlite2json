@@ -8,9 +8,11 @@ a single-source executable for any other versions.
 # Why Kasts?
 I was looking for a well maintained, non-cloud-backed/subscription, podcast client that
 would take a feed URL as user-input and bulk download entire podcasts WITHOUT restrictions.
+Kasts fit the bill.
 https://apps.kde.org/kasts/
-![kastsdesktop.png](https://cdn.kde.org/screenshots/kasts/kasts-desktop.png)
-![kastsmobile.png](https://cdn.kde.org/screenshots/kasts/kasts-mobile.png)
+|||
+|-|-|
+|![kastsdesktop.png](https://cdn.kde.org/screenshots/kasts/kasts-desktop.png)|![kastsmobile.png](https://cdn.kde.org/screenshots/kasts/kasts-mobile.png)|
 
 Kasts can runon Linux mobile and desktop (responsive) but unfortunately it doesnt have an "export mp3" feature.
 
@@ -20,7 +22,9 @@ Additionally, it will use some of the feed metadata and insert it as ID3 informa
 as well as storing the metadata as information in a file alongside the mp3 on the filesystem.
 
 # Example Usage: 
-## SQLITE to JSON:
+The two ways to use this.
+
+## SQLite to JSON
 ``` 
  s7:~/Desktop/$ ./sqlite2json.py ./database.db3 db2json ./database.json
  
@@ -32,7 +36,7 @@ as well as storing the metadata as information in a file alongside the mp3 on th
  s7:~/Desktop/$ 
 ```
 
-## Usecase: Kasts Extract:
+## Kasts Extraction
 ```
 s7:~/Desktop/$ ./sqlite2json.py database.db3 kastsextract ./kast_extracted_mp3s ~/.var/app/org.kde.kasts/data/KDE/kasts/enclosures
  ***
