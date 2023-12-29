@@ -10,7 +10,7 @@ I was looking for a well maintained, non-cloud-backed/subscription, podcast clie
 would take a feed URL as user-input and bulk download entire podcasts WITHOUT restrictions.
 Kasts fit the bill.
 https://apps.kde.org/kasts/
-|||
+|Kasts Desktop|Kasts Mobile|
 |-|-|
 |![kastsdesktop.png](https://cdn.kde.org/screenshots/kasts/kasts-desktop.png)|![kastsmobile.png](https://cdn.kde.org/screenshots/kasts/kasts-mobile.png)|
 
